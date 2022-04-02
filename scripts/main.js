@@ -12,21 +12,20 @@ fetch('./scripts/soupdata.json')
 
             // number guessed by user
             let soupguess = document.getElementById("guessField").value;
-
+            var guessinfo;
             if (soupguess == correctsoupvalue) {
-                document.getElementById('guessinfo').innerHTML = "You got the soup! You guessed it right after " + guesses + " attempts ";
-                document.getElementById('guessField').value = "";
+                guessinfo = "You got the soup! You guessed it right after " + guesses + " attempts ";
             }
             else if (soupguess > correctsoupvalue) /* if guessed number is greater
             than actual number*/ {
                 guesses++;
-                document.getElementById('guessinfo').innerHTML = "That soup was too high on the spectrum. Please try again.";
-                document.getElementById('guessField').value = "";
+                guessinfo = "That soup was too high on the spectrum. Please try again.";
             } else {
                 guesses++;
-                document.getElementById('guessinfo').innerHTML = "That soup was too low on the soup spectrum. Please try again.";
-                document.getElementById('guessField').value = "";
+                guessinfo = "That soup was too low on the soup spectrum. Please try again.";
             }
+            document.getElementById('guessinfo').innerHTML = guessinfo;
+            document.getElementById('guessField').value = "";
         }
     })
     .catch(err => console.error(`Fetch problem: ${err.message}`));
