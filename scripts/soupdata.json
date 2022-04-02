@@ -1,3 +1,14 @@
 {
-    "soup": "yes"
+    "ChickenAsianNoodleSoup": {
+        "Nooles": true,
+        "Protein": "Chicken",
+        "Broth": true,
+        "Instant": false
+    },
+    "InstantChickenNoodleSoup": {
+        "Nooles": true,
+        "Protein": "Chicken",
+        "Broth": true,
+        "Instant": true
+    }
 }
