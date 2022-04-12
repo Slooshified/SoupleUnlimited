@@ -1,14 +1,93 @@
 {
-    "ChickenAsianNoodleSoup": {
-        "Nooles": true,
-        "Protein": "Chicken",
-        "Broth": true,
-        "Instant": false
+    "AsianChickenNoodleSoup": {
+        "Carb": "noodle",
+        "Main": [
+            "chicken"
+        ],
+        "Base": "broth"
     },
     "InstantChickenNoodleSoup": {
-        "Nooles": true,
-        "Protein": "Chicken",
-        "Broth": true,
-        "Instant": true
+        "Carb": "instantnoodle",
+        "Main": [
+            "chicken"
+        ],
+        "Base": "broth"
+    },
+    "ChickenAndSweetCornSoup": {
+        "Carb": null,
+        "Main": [
+            "chicken",
+            "sweetcorn"
+        ],
+        "Base": "broth"
+    },
+    "ZestyChickenAndSweetCornSoup": {
+        "Carb": null,
+        "Main": [
+            "zestychicken",
+            "sweetcorn"
+        ],
+        "Base": "broth"
+    },
+    "BrownLentilAndVegtableSoup": {
+        "Carb": null,
+        "Main": [
+            "lentil",
+            "vegtables"
+        ],
+        "Base": "stew"
+    },
+    "CurriedLentilAndPumpkinSoup": {
+        "Carb": null,
+        "Main": [
+            "lentil",
+            "pumpkin"
+        ],
+        "Base": "curry"
+    },
+    "AustralianPumpkinSoup": {
+        "Carb": null,
+        "Main": [
+            "pumpkin"
+        ],
+        "Base": "cream"
+    },
+    "MoroccanSweetPotatoCarrotAndChickpeaSoup": {
+        "Carb": null,
+        "Main": [
+            "potato",
+            "carrot",
+            "chickpea"
+        ],
+        "Base": "stew"
+    },
+    "VegtableBaconAndRisoniSoup": {
+        "Carb": "pasta",
+        "Main": [
+            "vegtable",
+            "bacon"
+        ],
+        "Base": "stew"
+    },
+    "LambShankAndPastaSoup": {
+        "Carb": "pasta",
+        "Main": [
+            "lamb"
+        ],
+        "Base": "stew"
+    },
+    "CreamOfCauliflowerSoup": {
+        "Carb": null,
+        "Main": [
+            "cauliflower"
+        ],
+        "Base": "cream"
+    },
+    "LatteSoup": {
+        "Carb": null,
+        "Main": [
+            "coffee"
+        ],
+        "Base": "stew"
     }
 }
