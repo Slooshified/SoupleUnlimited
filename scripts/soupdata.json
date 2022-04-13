@@ -1,19 +1,22 @@
-{
-    "AsianChickenNoodleSoup": {
+[
+    {
+        "Name": "AsianChickenNoodleSoup",
         "Carb": "noodle",
         "Main": [
             "chicken"
         ],
         "Base": "broth"
     },
-    "InstantChickenNoodleSoup": {
+    {
+        "Name": "InstantChickenNoodleSoup",
         "Carb": "instantnoodle",
         "Main": [
             "chicken"
         ],
         "Base": "broth"
     },
-    "ChickenAndSweetCornSoup": {
+    {
+        "Name": "ChickenAndSweetCornSoup",
         "Carb": null,
         "Main": [
             "chicken",
@@ -21,7 +24,8 @@
         ],
         "Base": "broth"
     },
-    "ZestyChickenAndSweetCornSoup": {
+    {
+        "Name": "ZestyChickenAndSweetCornSoup",
         "Carb": null,
         "Main": [
             "zestychicken",
@@ -29,7 +33,8 @@
         ],
         "Base": "broth"
     },
-    "BrownLentilAndVegtableSoup": {
+    {
+        "Name": "BrownLentilAndVegtableSoup",
         "Carb": null,
         "Main": [
             "lentil",
@@ -37,7 +42,8 @@
         ],
         "Base": "stew"
     },
-    "CurriedLentilAndPumpkinSoup": {
+    {
+        "Name": "CurriedLentilAndPumpkinSoup",
         "Carb": null,
         "Main": [
             "lentil",
@@ -45,14 +51,16 @@
         ],
         "Base": "curry"
     },
-    "AustralianPumpkinSoup": {
+    {
+        "Name": "AustralianPumpkinSoup",
         "Carb": null,
         "Main": [
             "pumpkin"
         ],
         "Base": "cream"
     },
-    "MoroccanSweetPotatoCarrotAndChickpeaSoup": {
+    {
+        "Name": "MoroccanSweetPotatoCarrotAndChickpeaSoup",
         "Carb": null,
         "Main": [
             "potato",
@@ -61,7 +69,8 @@
         ],
         "Base": "stew"
     },
-    "VegtableBaconAndRisoniSoup": {
+    {
+        "Name": "VegtableBaconAndRisoniSoup",
         "Carb": "pasta",
         "Main": [
             "vegtable",
@@ -69,25 +78,28 @@
         ],
         "Base": "stew"
     },
-    "LambShankAndPastaSoup": {
+    {
+        "Name": "LambShankAndPastaSoup",
         "Carb": "pasta",
         "Main": [
             "lamb"
         ],
         "Base": "stew"
     },
-    "CreamOfCauliflowerSoup": {
+    {
+        "Name": "CreamOfCauliflowerSoup",
         "Carb": null,
         "Main": [
             "cauliflower"
         ],
         "Base": "cream"
     },
-    "LatteSoup": {
+    {
+        "Name": "LatteSoup",
         "Carb": null,
         "Main": [
             "coffee"
         ],
         "Base": "stew"
     }
-}
+]
