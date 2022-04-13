@@ -18,7 +18,7 @@ fetch('./scripts/soupdata.json')
             console.log(soupguessdata);
             var guessresponce;
             if (soupguess == correctsoupindex++) {
-                guessresponce = `You got the soup! You guessed it right after ${guesses.toString()} attempts `;
+                guessresponce = `You got the soup! You guessed it right after ${guesses.toString()} attempts. Reload Page to play again`;
             }
             else if (soupguess > correctsoupindex++) /* if guessed number is greater
             than actual number*/ {
