@@ -29,5 +29,3 @@ fetch('./scripts/soupdata.json')
         }
     })
     .catch(err => console.error(`Fetch problem: ${err.message}`));
-
-// random value generated
