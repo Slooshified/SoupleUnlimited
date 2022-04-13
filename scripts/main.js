@@ -8,7 +8,7 @@ fetch('./scripts/soupdata.json')
         // made for correct Guess
         let guesses = 1;
 
-        document.getElementById("submitguess").onclick = function () {
+        document.getElementById("submitguess").onclick = () => {
 
             // number guessed by user
             let soupguess = document.getElementById("guessField").value;
