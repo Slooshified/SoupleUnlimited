@@ -29,6 +29,9 @@ fetch('./scripts/soupdata.json')
                 if (correctsoupdata.Main.includes(soupguessdata.Main[0]) || correctsoupdata.Main.includes(soupguessdata.Main[0])) {
                     guessresponce = `${guessresponce}<br>Soups share 1 or more main ingredents`;
                 }
+                if (guessresponce == '') {
+                    guessresponce = 'Soups share no common characteristics'
+                }
                 guesses++;
             }
             // else if (soupguess > correctsoupindex++) /* if guessed number is greater
