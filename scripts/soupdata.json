@@ -9,7 +9,7 @@
     },
     {
         "Name": "InstantChickenNoodleSoup",
-        "Carb": "instantnoodle",
+        "Carb": "noodle",
         "Main": [
             "chicken"
         ],
@@ -64,8 +64,7 @@
         "Carb": null,
         "Main": [
             "potato",
-            "carrot",
-            "chickpea"
+            "carrot"
         ],
         "Base": "stew"
     },
