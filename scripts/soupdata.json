@@ -1,7 +1,7 @@
 [
     {
         "Name": "AsianChickenNoodleSoup",
-        "Carb": "noodle",
+        "Type": "clear",
         "Main": [
             "chicken"
         ],
@@ -9,15 +9,15 @@
     },
     {
         "Name": "InstantChickenNoodleSoup",
-        "Carb": "noodle",
+        "Type": "clear",
         "Main": [
             "chicken"
         ],
-        "Base": "broth"
+        "Base": "juice"
     },
     {
         "Name": "ChickenAndSweetCornSoup",
-        "Carb": null,
+        "Type": null,
         "Main": [
             "chicken",
             "sweetcorn"
@@ -26,7 +26,7 @@
     },
     {
         "Name": "ZestyChickenAndSweetCornSoup",
-        "Carb": null,
+        "Type": null,
         "Main": [
             "zestychicken",
             "sweetcorn"
@@ -35,7 +35,7 @@
     },
     {
         "Name": "BrownLentilAndVegtableSoup",
-        "Carb": null,
+        "Type": null,
         "Main": [
             "lentil",
             "vegtables"
@@ -44,7 +44,7 @@
     },
     {
         "Name": "CurriedLentilAndPumpkinSoup",
-        "Carb": null,
+        "Type": null,
         "Main": [
             "lentil",
             "pumpkin"
@@ -53,7 +53,7 @@
     },
     {
         "Name": "AustralianPumpkinSoup",
-        "Carb": null,
+        "Type": null,
         "Main": [
             "pumpkin"
         ],
@@ -61,7 +61,7 @@
     },
     {
         "Name": "MoroccanSweetPotatoCarrotAndChickpeaSoup",
-        "Carb": null,
+        "Type": null,
         "Main": [
             "potato",
             "carrot"
@@ -70,7 +70,7 @@
     },
     {
         "Name": "VegtableBaconAndRisoniSoup",
-        "Carb": "pasta",
+        "Type": "pasta",
         "Main": [
             "vegtable",
             "bacon"
@@ -79,7 +79,7 @@
     },
     {
         "Name": "LambShankAndPastaSoup",
-        "Carb": "pasta",
+        "Type": "pasta",
         "Main": [
             "lamb"
         ],
@@ -87,7 +87,7 @@
     },
     {
         "Name": "CreamOfCauliflowerSoup",
-        "Carb": null,
+        "Type": null,
         "Main": [
             "cauliflower"
         ],
@@ -95,7 +95,7 @@
     },
     {
         "Name": "LatteSoup",
-        "Carb": null,
+        "Type": null,
         "Main": [
             "coffee"
         ],
