@@ -34,14 +34,6 @@ fetch('./scripts/soupdata.json')
                 }
                 guesses++;
             }
-            // else if (soupguess > correctsoupindex++) /* if guessed number is greater
-            // than actual number*/ {
-            //     guesses++;
-            //     guessresponce = "That soup was too high on the spectrum. Please try again.";
-            // } else {
-            //     guesses++;
-            //     guessresponce = "That soup was too low on the soup spectrum. Please try again.";
-            // }
             document.getElementById('guessresponce').innerHTML = guessresponce;
             document.getElementById('guessField').value = "";
         }
